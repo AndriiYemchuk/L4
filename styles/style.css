@@ -16,7 +16,7 @@ a{
     font: weight 800px;;
     display: inline;
     float: right;
-    margin-top: -80px;
+    margin-top: -75px;
 }
 .Reviews1{
    margin-right: 230px;
@@ -35,7 +35,7 @@ a{
     font-weight:bolder;
     font-size: xx-large;
     margin-left: 75px;
-    margin-top: 50px;
+    margin-top: 45px;
     display: inline-block;
 }
 #BookNow:hover{
@@ -50,13 +50,36 @@ a{
     border-radius: 10px;
     float: right;
     margin-right: 60px;
-    margin-top: -95px;
+    margin-top: -90px;
 }
 .FirstContainer{
     display: block;
     text-align: center;
     margin-top: 60px;
 }
+.FirstContainer h1{
+    font-size: 60px;
+    font-weight: bolder;
+
+}
 .FirstContainer p{
-    font-size: large;
+    font-size:x-large;
+    padding-top: 10px;
+    font-weight:lighter;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+.FirstContainer button{
+    background-color: black;
+    color: aliceblue;
+    font-size: 23px;
+    border: 0px;
+    padding: 25px 38px;
+    border-radius: 10px;
+}
+.FirstContainer button:hover{
+    color: #B9B9B9;
+}
+.RioPicture{
+    margin-top: 80px;
 }
