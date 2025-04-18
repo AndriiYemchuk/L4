@@ -7,7 +7,6 @@ a{
 .Header{
     width: 1450px;
     display: inline;
-    border: 10px dotted red;
     max-height: 10px;
 }
 .Header li{
@@ -16,17 +15,27 @@ a{
     font-size: 20px;
     font: weight 800px;;
     display: inline;
-    float: center;
-    border: 5px dotted red;
-    margin-top: -85px;
+    float: right;
+    margin-top: -80px;
+}
+.Reviews1{
+   margin-right: 230px;
+}
+.Discounts1{
+    margin-right: 355px;
+}
+.Tours1{
+    margin-right: 500px;
+}
+.Destinations1{
+    margin-right: 610px;
 }
 .Top{
     color: black;
     font-weight:bolder;
     font-size: xx-large;
     margin-left: 75px;
-    margin-top: 30px;
-    border: 5px dotted blue;
+    margin-top: 50px;
     display: inline-block;
 }
 #BookNow:hover{
@@ -42,4 +51,12 @@ a{
     float: right;
     margin-right: 60px;
     margin-top: -95px;
+}
+.FirstContainer{
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+.FirstContainer p{
+    font-size: large;
 }
