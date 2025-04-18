@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
+.Header{
+    width: 1450px;
+    display: inline;
+    border: 10px dotted red;
+    max-height: 10px;
+}
+.Header li{
+    color: black;
+    list-style-type: none;
+    font-size: 20px;
+    font: weight 800px;;
+    display: inline;
+    float: center;
+    border: 5px dotted red;
+    margin-top: -85px;
+}
+.Top{
+    color: black;
+    font-weight:bolder;
+    font-size: xx-large;
+    margin-left: 75px;
+    margin-top: 30px;
+    border: 5px dotted blue;
+    display: inline-block;
+}
+#BookNow:hover{
+    color: #B9B9B9;
+}
+#BookNow{
+    background-color: black;
+    color: aliceblue;
+    font-size: 17px;
+    border: 0px;
+    padding: 18px 23px;
+    border-radius: 10px;
+    float: right;
+    margin-right: 60px;
+    margin-top: -95px;
+}
