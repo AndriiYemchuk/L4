@@ -346,6 +346,7 @@ a{
 
 
 
+
 .a_header h1{
     display: inline-block;
     color: black;
@@ -403,4 +404,84 @@ a{
     margin-top: 5px;
     font-size: 60px;
     display: inline-block;
+}
+
+
+.a_container2{
+    padding-left: 90px;
+    margin-top: 70px;
+}
+.form_element1{
+    display: inline-block;
+}
+.form_element1 input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    outline: none;
+}
+.form_element2{
+    display: inline-block;
+    margin-left: 25px;
+}
+.form_element2 input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    outline: none;
+}
+.form_element input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    outline: none;
+}
+.a_container2 button{
+    background-color: black;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 18px 289px;
+    margin-top: 20px;
+}
+.a_container2 button:hover{
+    color: #B9B9B9;
+}
+#textarea{
+    outline: none;
+    padding-left: 12px;
+    padding-top: 12px;
+} 
+
+.a_footer{
+    margin-top: 140px;
+    border-top: solid #dddddd;
+}
+.a_footer h1{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.a_list{
+    float: right;
+    margin-right: 160px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+.a_list li{
+    color: black;
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.a_icons{
+    margin-left:74px;
+    margin-top: 80px;
+}
+.a_footer p{
+    color: gray;
+    margin-left: 85px;
+    margin-top: 8px;
 }
