@@ -268,3 +268,71 @@ a{
     position: absolute;
     margin-left: 90px;
 }
+
+
+.Container6{
+    display: inline-block;
+    align-items: center;
+    align-content: baseline;
+    background-color: #F7F7F7;
+    width: 1470px;
+    height: 250px;
+    margin-top: 90px;
+}
+.Container6 h1{
+    float: left;
+    font-size: 45px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.Container6 button{
+    float: left;
+    margin-top: 93px;
+    margin-left: 250px;
+}
+.Button6_1{
+    background-color: black;
+    color: aliceblue;
+    font-size: 25px;
+    border: 0px;
+    padding: 22px 27px;
+    border-radius: 10px;
+}
+.Button6_2{
+    background-color: #E6E6E6;
+    color: black;
+    padding: 22px 27px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 0px;
+    margin-left: 40px !important;
+}
+
+
+.logo_f{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.list_f{
+    float: right;
+    margin-right: 160px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+.list_f li{
+   color: black;
+   list-style: none;
+   margin-bottom: 30px;
+   font-size: 18px;
+}
+.icons_f{
+    margin-left:74px;
+    margin-top: 80px;
+}
+.info{
+    color: gray;
+    margin-left: 85px;
+    margin-top: 8px;
+}
