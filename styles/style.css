@@ -460,6 +460,7 @@ a{
 }
 .a_footer h1{
     display: inline-block;
+    color: black;
     font-size: 40px;
     margin-left: 80px;
     margin-top: 40px;
