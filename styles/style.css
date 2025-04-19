@@ -127,8 +127,8 @@ a{
 
 
 .ToursContainer{
-    border: 5px dotted red;
     display: inline-block;
+    margin-top: 95px;
 }
 .ToursContainer img{
     width: 751px;
@@ -136,17 +136,90 @@ a{
     object-fit: cover;
 }
 .Container3{
-    border: 5px dotted red;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 100px;
+}
+.Container3 button{
+    background-color: black;
+    color: aliceblue;
+    font-size: 23px;
+    border: 0px;
+    padding: 18px 23px;
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-top: -90px;
+}
+.Container3 button:hover{
+    color: #B9B9B9;
 }
 .Container3 h1{
     font-size: 50px;
     text-align: center;
-}
-.Elements3{
-    border: 5px dotted red;
+    margin-bottom: 50px;
 }
 .ConteinerElement3{
-    border: 5px dotted red;
+    margin-bottom: 55px;
+    margin-top: -10px;
 }
+.ConteinerElement3 h3{
+    color: black;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.ConteinerElement3 p{
+    color: #828282;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: lighter;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+
+.Container4{
+    display: inline-block;
+    width: 1460px;
+    margin-top: 120px;
+}
+.Container4 h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-left: 65px;
+}
+.Elements4{
+    display: inline-block;
+}
+.ConteinerElement4{
+    float: left;
+    padding-left: 70px;
+}
+.Container4 h2{
+    color: white;
+    margin-bottom: -20px;
+    margin-left: 20px;
+    z-index: 2;
+    display: block;
+    position: absolute;
+}
+.ConteinerElement4 img{
+    width: 624.5px;
+    height: 341px;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+}
+.ConteinerElement4 h3{
+    color: black;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.ConteinerElement4 p{
+    color: #828282;
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: lighter;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
