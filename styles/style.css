@@ -223,3 +223,48 @@ a{
     margin-bottom: 10px;
 }
 
+
+.Container5 h1{
+    font-size: 50px;
+    margin-left: 65px;
+    margin-top: 90px;
+}
+.Elements5{
+    display: inline-block;
+    margin-left: 35px;
+}
+.ConteinerElement5{
+    border: 1.5px solid #E6E6E6;
+    border-radius: 13px;
+    float: left;
+    width: 410px;
+    height: 250px;
+    margin-left: 30px;
+    position: relative;
+}
+.ConteinerElement5 p{
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: lighter;
+    margin-left: 25px;
+}
+.ConteinerElement5 img{
+    position: absolute;
+    float: left;
+    margin-left: 25px;
+}
+#Name{
+    color: black;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: -8px;
+}
+#Country{
+    color: #828282;
+    font-size: 18px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 90px;
+}
