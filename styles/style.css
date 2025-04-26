@@ -92,19 +92,22 @@ a{
 
 .SecondContainer{
     margin-top: 120px;
-    width: 1300px;
-    margin-left: 80px;
+    margin-left: 0px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
 }
-.SecondContainer h1{
+#Destinations{
     font-size: 50px;
-    margin-left: 8px;
+    margin-left: 115px;
+    margin-bottom: -80px;
 }
 .Elements2{
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
 }
 .ConteinerElement{
-    display: inline-block;
-    padding: 12px;
+   padding-left: 20px;
 }
 .ConteinerElement img{
     width: 405px;
@@ -112,6 +115,8 @@ a{
     object-fit: cover;
     border-radius: 10px;
 }
+
+
 .ConteinerElement h3{
     color: black;
     font-size: 26px;
@@ -127,7 +132,8 @@ a{
 
 
 .ToursContainer{
-    display: inline-block;
+    display: grid;
+grid-template-columns: 50% 50%;
     margin-top: 95px;
 }
 .ToursContainer img{
@@ -136,8 +142,9 @@ a{
     object-fit: cover;
 }
 .Container3{
-    display: inline-block;
-    margin-left: 100px;
+    display: grid;
+    justify-self:center;
+    width: 520px;
 }
 .Container3 button{
     background-color: black;
@@ -230,8 +237,9 @@ a{
     margin-top: 90px;
 }
 .Elements5{
-    display: inline-block;
-    margin-left: 35px;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
 }
 .ConteinerElement5{
     border: 1.5px solid #E6E6E6;
@@ -239,7 +247,6 @@ a{
     float: left;
     width: 410px;
     height: 250px;
-    margin-left: 40px;
     position: relative;
 }
 .ConteinerElement5 p{
@@ -278,6 +285,7 @@ a{
     width: 1470px;
     height: 250px;
     margin-top: 90px;
+    
 }
 .Container6 h1{
     float: left;
@@ -318,6 +326,7 @@ a{
 .logo_f{
     display: inline-block;
     font-size: 40px;
+    color: black;
     margin-left: 80px;
     margin-top: 40px;
 }
