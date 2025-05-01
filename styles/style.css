@@ -52,6 +52,20 @@ a{
     margin-right: 60px;
     margin-top: -90px;
 }
+@media (width <= 950px) {
+    .Reviews1{
+        visibility: hidden;
+     }
+     .Discounts1{
+        visibility: hidden;
+     }
+     .Tours1{
+        visibility: hidden;
+     }
+     .Destinations1{
+        visibility: hidden;
+     }
+}
 
 
 
@@ -83,7 +97,18 @@ a{
 .FirstContainer button:hover{
     color: #B9B9B9;
 }
-
+@media (width <= 850px) {
+    .FirstContainer p {
+        font-size: 17px;
+    }
+    .FirstContainer h1{
+        font-size: 30px;
+    }
+    .FirstContainer button{
+        font-size: 15px;
+        padding: 14px, 27px;
+    }
+}
 
 .RioPicture{
     margin-top: 80px;
@@ -114,6 +139,11 @@ a{
     height: 405px;
     object-fit: cover;
     border-radius: 10px;
+}
+@media (width <= 1250px) {
+    .Elements2{
+       display: block;
+    }
 }
 
 
@@ -180,6 +210,21 @@ grid-template-columns: 50% 50%;
     font-weight: lighter;
     margin-top: -15px;
     margin-bottom: 10px;
+}
+@media (width <= 1350px) {
+    .ToursContainer{
+       display: block;
+    }
+}
+@media (width <= 550px) {
+    .ToursContainer p{
+       font-size: 20px;
+       margin-left: 60px;
+    }
+    .ToursContainer h3{
+        font-size: 20px;
+        margin-left: 60px;
+     }
 }
 
 
@@ -274,6 +319,16 @@ grid-template-columns: 50% 50%;
     display: inline-block;
     position: absolute;
     margin-left: 90px;
+}
+@media (width <= 950px) {
+    .Elements5{
+       display:list-item;
+       justify-items: center;
+    }
+    .ConteinerElement5{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
 }
 
 
